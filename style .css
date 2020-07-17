@@ -1,0 +1,51 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+   background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35),rgba(0,0,0,0.35),rgba(0,0,0,0.8)),url(rbt.gif) ;
+   background-size: cover;
+   background-position: center;
+}
+button
+{
+  position: absolute;
+  top:88%;
+  right: 46%;
+  font-size: 40px;
+  background: rgba(0,0,0,.6);
+  text-transform: uppercase;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #137dd4;
+    border-radius: 4px;
+    transition: .1s;
+    overflow: hidden;
+}
+button:hover
+{  
+    background: rgb(4, 255, 255);
+    box-shadow: 0 0 10px rgb(4, 247, 247);             
+}
+
+h3
+{
+  padding-left: 600px;
+  padding-top: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+#press
+{
+  color: rgb(168, 11, 11);
+  padding-top: 580px;
+  padding-left: 600px;
+  font-size: 20px;
+  font-weight: 900;
+}
